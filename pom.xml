@@ -14,6 +14,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 		<maven.compiler.source>11</maven.compiler.source>
 		<junit.jupiter.version>5.4.0</junit.jupiter.version>
+		<dependency-check-maven.version>7.3.0</dependency-check-maven.version>
 		<sonar.dependencyCheck.htmlReportPath>./target/dependency-check-report.html</sonar.dependencyCheck.htmlReportPath>
    		<sonar.dependencyCheck.jsonReportPath>./target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
    		<sonar.dependencyCheck.summarize>true</sonar.dependencyCheck.summarize>
