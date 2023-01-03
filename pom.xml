@@ -95,9 +95,7 @@
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.22.1</version>
-        <configuration>
-          <argLine>@{argLine} -more -arguments</argLine>
-        </configuration>
+        
         <executions>
           <execution>
             <id>default-test</id>
