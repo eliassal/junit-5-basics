@@ -3,9 +3,7 @@ package io.javabrains.utils;
 public class MathUtils {
 	
 	public int add(int a, int b) {
-		 int x = 1 /0;
-		int y = 2 /0;
-		int z = 2 /0;
+		
 		return a + b;
 		
 	}
