@@ -6,7 +6,8 @@ on:
 permissions:
   issues: write
   contents: read
-
+  repository-projects: write
+  
 jobs:
   comment:
     runs-on: ubuntu-latest
@@ -28,6 +29,7 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
+          const columnID = ${{ secrets.PROJECT_COLUMN_ID }};
           github.projects.createCard({
             column_id: columnID,
             content_id: context.payload.issue.id,
